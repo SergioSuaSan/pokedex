@@ -15,14 +15,96 @@
 <xsl:output method="html" encoding="utf-8" doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN" doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"/>
 <xsl:template match="/">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Documento sin título</title>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
 
 <body>
+   
+    <main>
+        
+        <div class="container bg-black bg-opacity-50 shadow-white p-0">
+            <div class="card border-0 rounded-0 bg-dark text-white text-center bg-black opacity-75 ">
+                <img class="card-img rounded-0 opacity-50" src="img/header.jpeg" alt="Title" />
+                <div class="card-img-overlay ">
+                    <div class="container">
+                        <h1 class="card-title mt-5 bg-black opacity-50">POKEDEX</h1>
+                        <p class="card-text fs-4">Los PokémOn son@riaturas de todo tipo de formas y tamaños qué viven
+                            bien en un medio salvaje
+                            o junto a Ids seres humanos. Los dueños de los Pokémon (denominados "Entrenadores") los
+                            crían
+                            y los cuidan: Durante sus aventuras, los Pokémon crecen y adquieren más experiencia, e
+                            incluso,
+                            en ocasiones, evolucionan para Pokémon más fuertes. En la actualidad, hay más de
+                            700 criaturas que habitan el universo Pokémon.</p>
+                    </div>
+
+                </div>
+            </div>
+            <h1 class="w-100 text-center opacity-50">Types</h1>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-4">
+                        <div class="card text-center text-white bg-transparent border-5 border-white border-opacity-75 py-3 mb-3">
+                            <img class="mx-auto"  src="img/no_type.png" alt="Title" />
+                            <div class="card-body p-0">
+                                <p class="card-text">no</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <h1 class="w-100 text-center opacity-50 mt-3">Pokemons</h1>         
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-6">
+                        <div class="card text-center text-white bg-transparent border-5 border-white border-opacity-75 py-3 mb-3">
+                           <div class="row align-items-center">
+                            <div class="col">
+                                <img class="mx-auto"  src="img/001.png" alt="Title" />
+                            </div>
+                            <div class="col">
+                                <div class="card-body p-0 opacity-75 text-start">
+                                    <h4 class="card-text  ">BULBASAUR</h4>
+                                    <p class="card-text m-0">HP</p>
+                                    <p class="card-text m-0">ATK</p>
+                                    <p class="card-text m-0">DEF</p>
+                                    <p class="card-text m-0">SPD</p>
+                                    <p class="card-text m-0 mb-2">SATK</p>
+                                    <img src="img/bug_type.png" alt=""/>
+                                    <img src="img/bug_type.png" alt=""/>
+                                </div>
+                            </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
 
 </xsl:template>
